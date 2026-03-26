@@ -6,23 +6,35 @@
   <style>
     body {
       font-family: Arial, sans-serif;
-      text-align: center;
-      margin: 40px;
+      margin: 0;
+      padding: 0;
       background-color: #f9f9f9;
+      color: #333;
     }
-    h1 {
-      color: #2c3e50;
+    header {
+      background-color: #2c3e50;
+      color: white;
+      padding: 20px;
+      text-align: center;
     }
-    p {
-      font-size: 18px;
+    header h1 {
+      margin: 0;
+      font-size: 28px;
     }
-    a {
-      color: #007acc;
+    header p {
+      margin: 5px 0;
+    }
+    header a {
+      color: #f9f9f9;
       text-decoration: none;
-      font-weight: bold;
+      margin: 0 10px;
     }
-    a:hover {
+    header a:hover {
       text-decoration: underline;
+    }
+    main {
+      padding: 30px;
+      text-align: center;
     }
     iframe {
       width: 80%;
@@ -33,10 +45,19 @@
   </style>
 </head>
 <body>
-  <h1>Abhijeet Kumar Srivastava - Resume</h1>
-  <p><a href="Abhijeet_Kumar_Srivastava_Resume.pdf" target="_blank">Click here to download my resume (PDF)</a></p>
-  
-  <!-- Embedded PDF viewer -->
-  <iframe src="Abhijeet_Kumar_Srivastava_Resume.pdf"></iframe>
+  <header>
+    <h1>Abhijeet Kumar Srivastava</h1>
+    <p>
+      📧 <a href="mailto:abhijeet.k.srivastava@gmail.com">abhijeet.k.srivastava@gmail.com</a> |
+      🔗 <a href="www.linkedin.com/in/abhijeet-k-srivastava" target="_blank">LinkedIn</a> |
+      💻 <a href="https://github.com/abhijeet160485" target="_blank">GitHub</a>
+    </p>
+  </header>
+
+  <main>
+    <h2>Resume</h2>
+    <p><a href="Abhijeet_Kumar_Srivastava_Resume.pdf" target="_blank">Download Resume (PDF)</a></p>
+    <iframe src="Abhijeet_Kumar_Srivastava_Resume.pdf"></iframe>
+  </main>
 </body>
 </html>
